@@ -14,5 +14,6 @@ class Solution:
         for substring in exception_dict:
             if substring in s:
                 running_sum -= exception_dict.get(substring)
+                
         return running_sum
         
