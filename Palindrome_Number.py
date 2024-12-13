@@ -12,7 +12,6 @@ class Solution:
             x //= 10  
         
         return original == reversed_number
-
 solution = Solution()
 print(solution.isPalindrome(121))   
 print(solution.isPalindrome(-121))  
