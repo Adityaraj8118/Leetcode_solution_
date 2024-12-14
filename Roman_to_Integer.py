@@ -16,4 +16,3 @@ class Solution:
                 running_sum -= exception_dict.get(substring)
                 
         return running_sum
-        
