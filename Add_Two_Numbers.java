@@ -4,7 +4,6 @@ class Solution {
 ListNode result=new ListNode(0);
 ListNode ptr=result;
     int carry =0;
-
     while(l1!=null || l2!=null)
     {
         int sum=0+carry;
@@ -23,16 +22,9 @@ ListNode ptr=result;
         sum=sum%10;
         ptr.next=new ListNode(sum);
         ptr=ptr.next;
-
-
-
-
-
     }
     if(carry==1)
      ptr.next=new ListNode(1);
-
      return result.next;
-
     }
 }
