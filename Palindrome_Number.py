@@ -10,8 +10,8 @@ class Solution:
             digit = x % 10  
             reversed_number = reversed_number * 10 + digit   
             x //= 10  
-        
         return original == reversed_number
+        
 solution = Solution()
 print(solution.isPalindrome(121))   
 print(solution.isPalindrome(-121))  
