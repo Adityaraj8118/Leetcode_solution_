@@ -32,7 +32,6 @@ class Solution:
 nums1 = [-1, 0, 1, 2, -1, -4]
 nums2 = [0, 1, 1]
 nums3 = [0, 0, 0]
-
 solution = Solution()
 print(solution.threeSum(nums1))  
 print(solution.threeSum(nums2))  
