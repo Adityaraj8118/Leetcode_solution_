@@ -23,6 +23,7 @@ ListNode ptr=result;
         ptr.next=new ListNode(sum);
         ptr=ptr.next;
     }
+        
     if(carry==1)
      ptr.next=new ListNode(1);
      return result.next;
