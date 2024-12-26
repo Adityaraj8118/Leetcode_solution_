@@ -28,6 +28,7 @@ class Solution:
                 else:
                     right -= 1
         return result
+        
 
 nums1 = [-1, 0, 1, 2, -1, -4]
 nums2 = [0, 1, 1]
